@@ -1,0 +1,166 @@
+.bns_top {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #f1ece8;
+  margin-top: 100px;
+  margin-bottom: 15px;
+
+  .bns_point {
+    float: left;
+    width: 235px;
+    height: 110px;
+    margin-left:45px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    background-color: #ffd800;
+    border-radius: 15px;
+    box-sizing: border-box;
+    position: relative;
+    padding-left:30px;
+    .bns_point_now {
+      line-height: 110px;
+      color: #494947;
+      font-size: 46px;
+      font-family: 'Museo Sans Cyrl 900';
+    }
+    .bns_point_next {
+      position: absolute;
+      right: -40px;
+      top:50%;
+      height: 50px;
+      padding-left: 22px;
+      background-color: #fff;
+      -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+      border-radius: 50px;
+      top:50%;
+      margin-top: -25px;
+      span {
+        color: #12445f;
+        font-size: 19px;
+        font-family: 'Museo Sans Cyrl 300';
+        line-height: 50px;
+        float: left;
+      }
+      a {
+        width: 32px;
+        line-height: 32px;
+        display: block;
+        float: left;
+        margin-top: 9px;
+        position: relative;
+        text-align: center;
+        font-size: 19px;
+        color: #ffffff;
+        font-family: 'Museo Sans Cyrl 900';
+        border-radius: 32px;
+        background-color: #d1dfe6;
+        text-decoration: none;
+        margin-left: 10px;
+        margin-right: 10px;
+        &:hover {
+          .bns_point_popup {
+            display: block;
+          }
+        }
+        .bns_point_popup {
+          position: absolute;
+          bottom: 46px;
+          left: 50%;
+          width: 246px;
+          margin-left: -123px;
+          -webkit-box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+          box-shadow: 0 5px 20px 0 rgba(0,0,0,0.2);
+          background-color: #fff;
+          border: 1px solid #ebebeb;
+          border-radius: 10px;
+          box-sizing: border-box;
+          line-height: 16px;
+          font-size: 14px;
+          color: #242424;
+          font-family: 'Museo Sans Cyrl 300';
+          padding: 18px 25px;
+          text-align: left;
+          display: none;
+          &:after {
+            display: block;
+            width: 18px;
+            height: 14px;
+            background-image: url("@{burl}hintar.png");
+            content: '';
+            position: absolute;
+            bottom: -14px;
+            left:50%;
+            margin-left: -9px;
+          }
+        }
+      }
+    }
+  }
+  .bns_point_text {
+    float: left;
+    margin-left: 50px;
+    margin-top:66px;
+    width: 165px;
+    span {
+      float: left;
+      width: 100%;
+      font-size: 12px;
+      color: #484848;
+      font-family: 'Museo Sans Cyrl 500';
+    }
+    .bns_open_hist {
+      float: left;
+      padding-right:29px;
+      line-height: 20px;
+      color: #12445f;
+      font-size: 12px;
+      font-family: 'Museo Sans Cyrl 500';
+      margin-top:8px;
+      background-image: url("@{burl}arr.png");
+      background-repeat:no-repeat;
+      background-position: right center;
+    }
+  }
+  .bns_ruls {
+    float: left;
+    width: 245px;
+    box-sizing: border-box;
+    padding-left:39px;
+    border-left: 1px solid #f1ece8;
+    margin-top:30px;
+    .bns_ruls_head {
+      float: left;
+      width: 100%;
+      font-size: 14px;
+      color: #494947;
+      font-family: 'Museo Sans Cyrl 700';
+      margin-bottom: 7px;
+      margin-top: 10px;
+    }
+    .bns_ruls_text {
+      float: left;
+      width: 100%;
+      font-size: 12px;
+      color: #a1a1a1;
+      line-height: 18px;
+      margin-bottom:2px;
+      font-family: 'Museo Sans Cyrl 500';
+    }
+    a {
+      float: left;
+      padding-right:29px;
+      line-height: 20px;
+      color: #12445f;
+      font-size: 12px;
+      font-family: 'Museo Sans Cyrl 500';
+      margin-top:8px;
+      margin-bottom: 10px;
+      background-image: url("@{burl}arr.png");
+      background-repeat:no-repeat;
+      background-position: right center;
+    }
+  }
+}

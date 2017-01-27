@@ -1,0 +1,71 @@
+.bns_qust {
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #f1ece8;
+  margin-bottom: 15px;
+}
+.bns_qust_main {
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-top: 21px;
+  margin-bottom: 21px;
+  .bns_qust_item {
+    display: inline-block;
+    width: 212px;
+    height: 96px;
+    border: 1px solid #f1ece8;
+    overflow: hidden;
+    margin: 5px;
+    .bns_qust_left {
+      float: left;
+      width: 74px;
+      height: 100%;
+      text-align: center;
+      img {
+        vertical-align: middle;
+      }
+      &:before {
+        content: '';
+        vertical-align: middle;
+        height: 100%;
+        display: inline-block;
+      }
+    }
+    .bns_qust_right {
+      float: left;
+      height: 100%;
+      width: 130px;
+      &:before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        height: 100%;
+      }
+      .bns_qr_cent {
+        text-align: left;
+        width: 94%;
+        display: inline-block;
+        vertical-align: middle;
+        .bns_qust_name {
+          float: left;
+          width: 100%;
+          color: #484848;
+          font-size: 12px;
+          font-family: 'Museo Sans Cyrl 500';
+
+        }
+        .bns_qust_point {
+          float: left;
+          width: 100%;
+          color: #cc0000;
+          font-size: 14px;
+          margin-top:8px;
+          font-family: 'Museo Sans Cyrl 700';
+        }
+      }
+    }
+  }
+}

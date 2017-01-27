@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  &.no_scrol {
+    overflow: hidden;
+  }
+}
+.bns_inner_block {
+  max-width: 930px;
+  width: 100%;
+  margin:auto;
+}
+.bns_mytoys_bon {
+  padding-left:67px;
+  display: block;
+  position: absolute;
+  right: 0px;
+  top:70px;
+  box-sizing: border-box;
+  font-size: 12px;
+  text-decoration: none;
+  line-height: 48px;
+  font-family: 'Museo Sans Cyrl 700';
+  color: #484848;
+  width: 156px;
+  background-color: #f1ece8;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=1, startColorstr='#FFFFFFFF', endColorstr='#FFF1ECE8');
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…dpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==);
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #ffffff),color-stop(5%, #ffffff),color-stop(60%, #f1ece8),color-stop(100%, #f1ece8));
+  background-image: -moz-linear-gradient(left, #ffffff 0%,#ffffff 5%,#f1ece8 60%,#f1ece8 100%);
+  background-image: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 5%,#f1ece8 60%,#f1ece8 100%);
+  background-image: linear-gradient(to right, #ffffff 0%,#ffffff 5%,#f1ece8 60%,#f1ece8 100%);
+  -moz-box-shadow: silver 0.125em 0.125em 0.625em;
+  -webkit-box-shadow: silver 0.125em 0.125em 0.625em;
+  box-shadow: silver 0.125em 0.125em 0.625em;
+  &:before {
+    width: 32px;
+    height: 31px;
+    position: absolute;
+    left:19px;
+    top:50%;
+    margin-top: -15px;
+    background-image: url("@{burl}mtbon.png");
+    display: block;
+    content: '';
+
+  }
+}
+.bns_left {
+  float: left;
+  width: 19%;
+  .bns_left_head {
+    width: 100%;
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    line-height: 50px;
+    background-color: #f1ece8;
+    padding-left:22px;
+    font-size: 14px;
+    color: #494947;
+    font-family: 'Museo Sans Cyrl 700';
+    &:after {
+      position: absolute;
+      top:0px;
+      right: -16px;
+      width: 16px;
+      height: 100%;
+      background-image: url("@{burl}larr.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      content: '';
+      display: block;
+    }
+  }
+  .bns_left_sub_head {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 18px 22px;
+    color: #484848;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Museo Sans Cyrl 300';
+  }
+}
+.bns_right {
+  float: left;
+  width: 81%;
+  box-sizing: border-box;
+  border-left: 1px solid #f1ece8;
+}
